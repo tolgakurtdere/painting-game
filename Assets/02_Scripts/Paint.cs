@@ -8,6 +8,8 @@ namespace PaintingGame
     {
         [SerializeField] private Color color;
 
+        public Color Color => color;
+
 #if UNITY_EDITOR
         private void OnValidate()
         {
